@@ -1,0 +1,18 @@
+At the root of the Java Collections Framework is the Iterable interface,
+which lets you iterate over the elements of a collection.
+
+The Collection interface extends the Iterable interface.
+This means it inherits the properties and behavior of the Iterable interface and adds its own behavior for adding, removing, and retrieving elements.
+
+Specific interfaces such as List, Set, and Queue further extend the Collection interface.
+Each of these interfaces has other classes implementing their methods.
+For example, ArrayList is a popular implementation of the List interface, HashSet implements the Set interface, and so on.
+
+The Map interface is part of the Java Collections Framework, but it does not extend the Collection interface, unlike the others mentioned above.
+
+All the interfaces and classes in this framework are part of the java.util package.
+
+Collection is an interface in the framework, while Collections is a utility class.
+The Collections class provides static methods that perform operations on the elements of a collection.
+
+
