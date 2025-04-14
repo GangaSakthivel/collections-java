@@ -10,11 +10,9 @@ public class ListExample {
         nameList.add("Ganga");
         nameList.add("Sakthivl");
         nameList.add("Neha");
-        nameList.add("Abc");
-        nameList.add("Cgr");
-        nameList.add("sfjkf");
 
         System.out.println(nameList);
+        System.out.println("-----------------");
 
         //looping through elements
         for (String elements:nameList
@@ -23,9 +21,27 @@ public class ListExample {
 
         }
 
+        System.out.println("------------------");
+
+        nameList.set(1, "Meera");
+        System.out.println(nameList);
+
+        System.out.println("-------------------");
+
+        //removing an element
+        String removeElement = nameList.remove(2);
+        System.out.println(removeElement);
+
+        System.out.println(nameList);
+
+        System.out.println("---------------------");
+
+        System.out.println(nameList.size());
 
 
 
 
     }
 }
+
+//Common implementations: ArrayList, LinkedList, Vector, Stack
